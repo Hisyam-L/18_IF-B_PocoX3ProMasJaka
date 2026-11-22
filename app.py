@@ -5,9 +5,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Prediksi Pendapatan Film", page_icon="🎬", layout="wide")
 
-# ISI DENGAN RMSE (skala log10) dari hasil evaluasi test set di notebook Modelling.
-# Dipakai untuk membuat rentang prediksi: 10**(pred ± RMSE_LOG)
-RMSE_LOG = 0.75
+RMSE_LOG = 0.6528
 
 BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"]
 
